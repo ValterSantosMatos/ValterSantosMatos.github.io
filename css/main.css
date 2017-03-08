@@ -264,7 +264,8 @@ footer {
 }
 
 footer a {
-  color: #404040;
+  /*color: #404040;*/
+  color: pink;
 }
 
 footer .list-inline {
