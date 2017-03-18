@@ -1,52 +1,23 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: Exemplo de um post, Amote
+subtitle: Sei que e super lamexas mas sempre adorei este poema, hoje dedico-o a ti!!!!
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Amor é um fogo que arde sem se ver; 
+É ferida que dói, e não se sente; 
+É um contentamento descontente; 
+É dor que desatina sem doer. 
 
-**Here is some bold text**
+É um não querer mais que bem querer; 
+É um andar solitário entre a gente; 
+É nunca contentar-se e contente; 
+É um cuidar que ganha em se perder; 
 
-## Here is a secondary heading
+É querer estar preso por vontade; 
+É servir a quem vence, o vencedor; 
+É ter com quem nos mata, lealdade. 
 
-Here's a useless table:
- 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
- 
-
-How about a yummy crepe?
-
-![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+Mas como causar pode seu favor 
+Nos corações humanos amizade, 
+Se tão contrário a si é o mesmo Amor? 

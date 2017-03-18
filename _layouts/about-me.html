@@ -1,0 +1,169 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      
+      <p>I'm a full stack developer, currently working in Hong Kong with Angular 2 / Ionic 2 building mobile apps in the finnancial / fintech space. It's been a long time since I wanted to start a blog to share a bit more of my work.</p>
+      <p>Actually I started to do some work with web development by luck :) while I was doing my bachelor in Electrical and Computer Engineering I didn't like programming that much... so I ended choosing Electrical as my master where I basically learn Matlab. On the meanwhile my father needed someone to do his website, I saw the opportunity to make some money and I did it and I ended learning HTML and CSS.</p>
+      <p>After finishing the university I joined my friends in a startup called SecurPC (now Securibox). There I started to work with ASP.NET in Azure and learned all about web development with C#. I also started to work on basic javascript JQuery, later I did my first SPA using Typescript, Durandal and Knockout (back in Typescript 0.8!).</p>
+      <p>From there I got an offer to go for Barcelona, Spain and work in a big corporation (Sage). I took the chance to travel, know another country and I left. I continue to work with C# Azure ASP.Net in an entreprise level application, it was a big change which I really liked. From there I moved to Hong Kong.</p>
+      <p>In Hong Kong I started to work with a startup again with Angular in a financial company. There I found the domain I most like to work on, since then I started to study Investmentents and how to make it easier and better for the common users. In Hong Kong I moved to my current startup (8Securities) where I am a lead developer creating mobile apps using Ionic2. From there I decided to make this blog and share a bit of my knoledge in fintech.</p>
+
+      <h1> Traveling </h1>
+      <p> Outside normal vacations the first true travel I did was when I was in university and, with a group of friends, ended up going to Toronto, Canada, to work for three weeks in a volunteer project (CISV ONG) with people from all around the world. </p>
+      <p> Since then travelling became a big part of my life and I ended up using my spare time and money to know different places and cultures around the world. One of my dreams is to just backpack around the workld for a couple of years.</p>
+      <h4> This are the countries I have travelled</h4>
+      <div id="mapdiv" style="height: 450px;"></div>
+
+      <h1> 2017 Bucket List </h1>
+      <ul>
+        <li>Learn French fluently</li>
+        <li>Learn to rook climbing</li>
+        <li>Travel to an Arabic country</li>
+        <li>Create a blog</li>
+        <li>Blog once a month</li>
+        <li>Create two open source projects in the financial area</li>
+        <li>Contribute to an open source project</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    var map = AmCharts.makeChart("mapdiv", {
+        type: "map",
+        theme: "dark",
+        projection: "mercator",
+        panEventsEnabled: false,
+        dragMap: false,
+        backgroundColor: "#2d2d2d",
+        backgroundAlpha: 1,
+        zoomControl: {
+            zoomControlEnabled: false,
+            homeButtonEnabled: false
+        },
+        dataProvider: {
+            map: "worldHigh",
+            getAreasFromMap: true,
+            areas:
+            [
+                {
+                    "id": "CZ",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "DK",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "FR",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "DE",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "HU",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "IT",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "PL",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "PT",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "ES",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "SE",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "CH",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "TR",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "GB",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "CA",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "US",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "KH",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "CN",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "IN",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "ID",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "JP",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "MY",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "KR",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "TW",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "TH",
+                    "showAsSelected": true
+                },
+                {
+                    "id": "VN",
+                    "showAsSelected": true
+                }
+            ]
+        },
+        areasSettings: {
+            autoZoom: false,
+            color: "#767676",
+            selectedColor: "#efefef",
+            outlineColor: "#181818",
+            rollOverColor: "#f96816",
+            rollOverOutlineColor: "#181818",
+        }
+    });
+</script>
