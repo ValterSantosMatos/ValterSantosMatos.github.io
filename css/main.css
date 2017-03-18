@@ -17,7 +17,7 @@ p {
 
 p a {
   /* text-decoration: underline */
-  color: #008aff;
+  color: #F96816;
 }
 
 h1,
@@ -31,12 +31,12 @@ h6 {
 }
 
 a {
-  color: #008aff;
+  color: #F96816;
 }
 
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #FF7B39;
 }
 
 blockquote {
@@ -78,13 +78,13 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #FF7B39;
 }
 
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #FF7B39;
 }
 
 img::selection {
@@ -135,7 +135,7 @@ img {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #aaa;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -299,6 +299,11 @@ footer a {
   color: #888;
 }
 
+footer a:hover,
+footer a:focus {
+  color: #363636;
+}
+
 footer .list-inline {
   margin: 0;
   padding: 0;
@@ -309,6 +314,11 @@ footer .copyright {
   text-align: center;
   margin-bottom: 0;
   margin-top: 8px;
+}
+
+.copyright a:hover,
+.copyright a:focus {
+  color: #FF7B39;
 }
 
 footer .theme-by {
@@ -351,7 +361,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #FF7B39;
 }
 
 .post-preview .post-title {
@@ -424,14 +434,14 @@ footer .theme-by {
 }
 
 .blog-tags a {
-  color: #008aff;
+  color: #F96816;
   text-decoration: none;
   padding: 0px 5px;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #008aff;
+  color: #F96816;
   background-color: #ccc;
 }
 
@@ -653,8 +663,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #2d2d2d;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #FF7B39;
+  border: 1px solid #FF7B39;
 }
 
 .pager {
