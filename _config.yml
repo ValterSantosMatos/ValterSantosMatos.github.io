@@ -25,8 +25,8 @@ description: A virtual proof that name is awesome!
 navbar-links:
   Home: ""
   About Me: "aboutme"
-  #Projects:
-  #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  Projects:
+   - Portfolio Rebalance: "p-rebalance-site/p-rebalance-site"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #  - GitHub Pages: "https://pages.github.com/"
 
